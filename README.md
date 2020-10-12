@@ -1,7 +1,7 @@
 # Klunge
 
-![klunge](resources/klunge_logo.png)
-[![Build Status](https://travis-ci.org/kloiasoft/eventapis.svg?branch=master)](https://travis-ci.org/kloiasoft/eventapis) [![Gitter chat](https://badges.gitter.im/hashicorp-terraform/Lobby.png)](https://gitter.im/eventapis/Lobby)
+![klunge](resources/klunge.png)
+[![Build Status](https://travis-ci.org/klunge/klunge.svg?branch=master)](https://travis-ci.org/klunge/KlungeFramework) [![Gitter chat](https://badges.gitter.im/hashicorp-terraform/Lobby.png)](https://gitter.im/klunge/Lobby)
 Offical Website: [klunge.io](https://www.klunge.io)
 
 Enterprise-Scale Eventually Consistent CQRS Framework
@@ -30,9 +30,9 @@ If you're using [MAVEN](https://maven.apache.org/), you have to add this propert
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
-                    <id>bintray-kloia-eventapis</id>
+                    <id>bintray-klunge</id>
                     <name>bintray</name>
-                    <url>https://dl.bintray.com/kloia/eventapis</url>
+                    <url>https://dl.bintray.com/klunge/KlungeFramework</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -40,9 +40,9 @@ If you're using [MAVEN](https://maven.apache.org/), you have to add this propert
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
-                    <id>bintray-kloia-eventapis</id>
+                    <id>bintray-klunge</id>
                     <name>bintray-plugins</name>
-                    <url>https://dl.bintray.com/kloia/eventapis</url>
+                    <url>https://dl.bintray.com/klunge/KlungeFramework</url>
                 </pluginRepository>
             </pluginRepositories>
             <id>bintray</id>
@@ -58,30 +58,30 @@ If you're using gradle add this property to gradle file
 ```yaml
 repositories {
     maven {
-        url  "https://dl.bintray.com/kloia/eventapis" 
+        url  "https://dl.bintray.com/klunge/KlungeFramework" 
     }
 }
 ```
-for another using options you can visit [Bintray Repo](https://bintray.com/kloia/eventapis/)
+for another using options you can visit [Bintray Repo](https://bintray.com/klunge/KlungeFramework/)
 
 ## Usage
 You have to add properties to pom.xml
 ```xml
 <dependencies>
     <dependency>
-        <groupId>com.kloia.eventapis</groupId>
+        <groupId>io.klunge</groupId>
         <artifactId>spring-integration</artifactId>
-        <version>0.7.0</version>
+        <version>0.8.0-SNAPSHOT</version>
     </dependency>
     <dependency>
-        <groupId>com.kloia.eventapis</groupId>
+        <groupId>io.klunge</groupId>
         <artifactId>spring-jpa-view</artifactId>
-        <version>0.7.0</version>
+        <version>0.8.0-SNAPSHOT</version>
     </dependency>
     <dependency>
-        <groupId>com.kloia.eventapis</groupId>
+        <groupId>io.klunge</groupId>
         <artifactId>java-api</artifactId>
-        <version>0.7.0</version>
+        <version>0.8.0-SNAPSHOT</version>
     </dependency>
 </dependencies>
 ```
@@ -124,7 +124,7 @@ You have to add properties to pom.xml, too.
 </dependencies>
 ```
 ## Prerequisites
-Before run your built services you have to run [Docker Compose](https://github.com/kloiasoft/eventapis/blob/master/samples/3-advanced/docker/docker-compose.yml) it will run minumum external resources Cassandra, Kafka etc.
+Before run your built services you have to run [Docker Compose](https://github.com/klunge/KlungeFramework/blob/master/samples/3-advanced/docker/docker-compose.yml) it will run minumum external resources Cassandra, Kafka etc.
 
 ## Build
 If you're using different java versions you have to set in bash prompt before run at bottom of commands, you can use [SDKMAN](https://sdkman.io/)
@@ -136,4 +136,4 @@ If you're using different java versions you have to set in bash prompt before ru
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 ## License
-[Apache License](https://github.com/kloiasoft/eventapis/blob/master/LICENSE)
+[Apache License](https://github.com/klunge/KlungeFramework/blob/master/LICENSE)

@@ -1,4 +1,4 @@
 version: '2'
 services:
   challenge:
-    image: 'kloiasoft/eventapis:latest'
+    image: 'klunge/emon:latest'

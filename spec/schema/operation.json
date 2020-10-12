@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/kloiasoft/eventapis/blob/master/spec/schema/operation.json",
-  "title": "EventApis Event Wrapper",
-  "description": "EventApis Event Wrapper Schema",
+  "$id": "https://github.com/klunge/KlungeFramework/blob/master/spec/schema/operation.json",
+  "title": "Klunge Event Wrapper",
+  "description": "Klunge Event Wrapper Schema",
   "type": "object",
   "properties": {
     "event": {
@@ -31,7 +31,7 @@
       "description": "Event Send Epoch"
     },
     "context": {
-      "$ref": "https://github.com/kloiasoft/eventapis/blob/master/spec/schema/context.json"
+      "$ref": "https://github.com/klunge/KlungeFramework/blob/master/spec/schema/context.json"
     },
     "userContext": {
       "type": "object",

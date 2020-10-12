@@ -3,9 +3,9 @@ server:
   jetty:
     acceptors: 2
 service:
-  name: Eventapis Operation Center
+  name: Klunge Operation Center
 
-eventapis:
+klunge:
   eventBus:
     bootstrapServers: localhost:9092
     zookeeperServers: localhost:2181

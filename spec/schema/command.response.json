@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/kloiasoft/eventapis/blob/master/spec/schema/command.response.json",
-  "title": "EventApis Command Response",
-  "description": "EventApis Command Response Schema",
+  "$id": "https://github.com/klunge/KlungeFramework/blob/master/spec/schema/command.response.json",
+  "title": "Klunge Command Response",
+  "description": "Klunge Command Response Schema",
   "type": "object",
   "properties": {
     "headers": {
@@ -33,7 +33,7 @@
     "body": {
       "allOf": [
         {
-          "$ref": "https://github.com/kloiasoft/eventapis/blob/master/spec/schema/event.key.json"
+          "$ref": "https://github.com/klunge/KlungeFramework/blob/master/spec/schema/event.key.json"
         }
       ],
       "additionalProperties": true

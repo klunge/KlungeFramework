@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/kloiasoft/eventapis/blob/master/spec/schema/published-event.json",
-  "title": "EventApis Published Event",
-  "description": "EventApis Published Event Content Schema",
+  "$id": "https://github.com/klunge/KlungeFramework/blob/master/spec/schema/published-event.json",
+  "title": "Klunge Published Event",
+  "description": "Klunge Published Event Content Schema",
   "type": "object",
   "properties": {
     "sender": {
-      "$ref": "https://github.com/kloiasoft/eventapis/blob/master/spec/schema/published-event.json"
+      "$ref": "https://github.com/klunge/KlungeFramework/blob/master/spec/schema/published-event.json"
     },
     "eventType": {
       "type": "string",
