@@ -10,7 +10,9 @@ Klunge is a Java based Event Sourcing framework which can be benefited by the te
 
 It has a unique architecture called Operation Store™ together with the stack elements including Docker, Kafka, Hazelcast and Cassandra.
 
-You can reach various samples from this link [Demo](https://github.com/KlungeFramework/KlungeFramework/tree/master/samples)
+You can reach sample projects from following links:
+
+* [klunge-example-ecommerce](https://github.com/klunge/klunge-example-ecommerce) - demonstrates how to maintain data consistency in an Spring Boot, Cassandra and Kafka based microservice architecture using choreography-based sagas.
 
 ## Installation
 
