@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.lang.reflect.Type;
 
 /**
- * Created by zeldalozdemir on 25/04/2017.
+ * @author Zeldal Özdemir
  */
 public class EventMessageConverter extends MessagingMessageConverter {
     private final ObjectMapper objectMapper;

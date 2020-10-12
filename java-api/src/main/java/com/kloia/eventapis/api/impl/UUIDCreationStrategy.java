@@ -5,7 +5,7 @@ import com.kloia.eventapis.api.IdCreationStrategy;
 import java.util.UUID;
 
 /**
- * Created by zeldal on 25/05/2017.
+ * @author Zeldal Özdemir
  */
 public class UUIDCreationStrategy implements IdCreationStrategy {
     @Override

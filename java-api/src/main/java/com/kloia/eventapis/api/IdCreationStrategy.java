@@ -1,7 +1,7 @@
 package com.kloia.eventapis.api;
 
 /**
- * Created by zeldal on 25/05/2017.
+ * @author Zeldal Özdemir
  */
 public interface IdCreationStrategy {
     String nextId();

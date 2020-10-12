@@ -25,7 +25,7 @@ import java.util.Comparator;
 import java.util.Map;
 
 /**
- * Created by zeldalozdemir on 22/01/2017.
+ * @author Zeldal Özdemir
  */
 @Slf4j
 @RestController

@@ -1,7 +1,7 @@
 package com.kloia.eventapis.exception;
 
 /**
- * Created by zeldalozdemir on 26/04/2017.
+ * @author Zeldal Özdemir
  */
 public class EventContextException extends Exception {
     public EventContextException(String message) {

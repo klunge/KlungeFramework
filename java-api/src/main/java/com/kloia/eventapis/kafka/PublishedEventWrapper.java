@@ -13,7 +13,7 @@ import java.io.Serializable;
 import java.util.Map;
 
 /**
- * Created by zeldalozdemir on 25/04/2017.
+ * @author Zeldal Özdemir
  */
 @Data
 @ToString(exclude = "userContext")

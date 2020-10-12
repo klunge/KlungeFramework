@@ -5,7 +5,7 @@ import com.kloia.eventapis.common.EventKey;
 import java.io.Serializable;
 
 /**
- * Created by zeldalozdemir on 21/02/2017.
+ * @author Zeldal Özdemir
  */
 public interface Entity extends Serializable {
 

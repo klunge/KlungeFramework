@@ -1,7 +1,7 @@
 package com.kloia.eventapis.pojos;
 
 /**
- * Created by zeldalozdemir on 26/01/2017.
+ * @author Zeldal Özdemir
  */
 public enum TransactionState {
     RUNNING,

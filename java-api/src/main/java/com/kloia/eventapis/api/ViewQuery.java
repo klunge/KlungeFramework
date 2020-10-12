@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.function.Function;
 
 /**
- * Created by zeldalozdemir on 23/02/2017.
+ * @author Zeldal Özdemir
  */
 public interface ViewQuery<E extends Entity> {
     E queryEntity(String entityId) throws EventStoreException;

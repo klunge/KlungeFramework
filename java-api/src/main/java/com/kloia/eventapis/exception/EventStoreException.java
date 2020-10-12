@@ -1,7 +1,7 @@
 package com.kloia.eventapis.exception;
 
 /**
- * Created by zeldalozdemir on 21/02/2017.
+ * @author Zeldal Özdemir
  */
 public class EventStoreException extends Exception {
     public EventStoreException() {

@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.function.Function;
 
 /**
- * Created by zeldalozdemir on 12/02/2017.
+ * @author Zeldal Özdemir
  */
 @Slf4j
 public class OptimizedCassandraViewQuery<E extends Entity> extends BaseCassandraViewQuery<E> {

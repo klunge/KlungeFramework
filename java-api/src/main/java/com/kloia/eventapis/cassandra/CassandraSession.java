@@ -20,7 +20,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 /**
- * Created by zeldal on 22/05/2017.
+ * @author Zeldal Özdemir
  */
 @Slf4j
 public class CassandraSession {

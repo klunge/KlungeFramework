@@ -8,7 +8,7 @@ import java.util.AbstractMap;
 import java.util.Map;
 
 /**
- * Created by zeldalozdemir on 21/02/2017.
+ * @author Zeldal Özdemir
  */
 public interface RollbackSpec<P extends RecordedEvent> {
     void rollback(P event);

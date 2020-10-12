@@ -1,7 +1,7 @@
 package com.kloia.eventapis.kafka;
 
 /**
- * Created by zeldalozdemir on 22/02/2017.
+ * @author Zeldal Özdemir
  */
 
 import java.io.Serializable;

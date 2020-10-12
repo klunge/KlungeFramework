@@ -3,7 +3,7 @@ package com.kloia.eventapis.kafka;
 import com.kloia.eventapis.pojos.Event;
 
 /**
- * Created by zeldalozdemir on 20/04/2017.
+ * @author Zeldal Özdemir
  */
 public interface IOperationRepository {
 

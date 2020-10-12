@@ -1,7 +1,7 @@
 package com.kloia.eventapis.exception;
 
 /**
- * Created by zeldalozdemir on 21/02/2017.
+ * @author Zeldal Özdemir
  */
 public class EventPulisherException extends Exception {
     public EventPulisherException() {

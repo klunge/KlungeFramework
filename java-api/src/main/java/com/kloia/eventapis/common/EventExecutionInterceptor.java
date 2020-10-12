@@ -10,7 +10,7 @@ import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 
 /**
- * Created by zeldalozdemir on 24/04/2017.
+ * @author Zeldal Özdemir
  */
 @Aspect
 @Slf4j

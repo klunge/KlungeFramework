@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.regex.Pattern;
 
 /**
- * Created by zeldalozdemir on 26/01/2017.
+ * @author Zeldal Özdemir
  */
 public class OperationTest {
     @Test

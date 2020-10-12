@@ -10,7 +10,7 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
 /**
- * Created by zeldalozdemir on 20/04/2017.
+ * @author Zeldal Özdemir
  */
 @Slf4j
 public class KafkaOperationRepository implements IOperationRepository {

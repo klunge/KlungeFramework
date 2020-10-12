@@ -1,7 +1,7 @@
 package com.kloia.eventapis.api;
 
 /**
- * Created by zeldalozdemir on 21/04/2017.
+ * @author Zeldal Özdemir
  */
 @SuppressWarnings("checkstyle:interfaceistype")
 public interface CommandHandler {

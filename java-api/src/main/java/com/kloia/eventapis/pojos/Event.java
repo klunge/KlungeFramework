@@ -11,7 +11,7 @@ import java.io.ObjectOutput;
 import java.util.UUID;
 
 /**
- * Created by zeldalozdemir on 26/01/2017.
+ * @author Zeldal Özdemir
  */
 @Data
 @AllArgsConstructor

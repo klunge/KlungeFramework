@@ -19,7 +19,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Created by zeldalozdemir on 04/2020.
+ * @author Zeldal Özdemir
  */
 @Slf4j
 @RestController

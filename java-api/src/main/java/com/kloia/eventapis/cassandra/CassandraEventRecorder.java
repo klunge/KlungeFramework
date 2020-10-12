@@ -31,7 +31,7 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 /**
- * Created by zeldalozdemir on 12/02/2017.
+ * @author Zeldal Özdemir
  */
 @Slf4j
 public class CassandraEventRecorder implements EventRecorder {

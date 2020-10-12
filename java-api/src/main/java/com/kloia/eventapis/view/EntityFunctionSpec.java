@@ -7,7 +7,7 @@ import lombok.NonNull;
 import java.lang.reflect.ParameterizedType;
 
 /**
- * Created by zeldalozdemir on 21/02/2017.
+ * @author Zeldal Özdemir
  */
 @Getter
 public abstract class EntityFunctionSpec<EntityT, EventDataT> {

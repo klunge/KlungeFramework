@@ -3,7 +3,7 @@ package com.kloia.eventapis.view;
 import com.kloia.eventapis.exception.EventStoreException;
 
 /**
- * Created by zeldalozdemir on 21/02/2017.
+ * @author Zeldal Özdemir
  */
 @FunctionalInterface
 public interface EntityFunction<E, W> {

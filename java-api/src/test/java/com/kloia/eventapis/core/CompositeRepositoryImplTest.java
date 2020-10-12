@@ -46,7 +46,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 /**
- * Created by orhanburak.bozan on 19/08/2017.
+ * @author Orhan Burak Bozan
  */
 @RunWith(MockitoJUnitRunner.class)
 public class CompositeRepositoryImplTest {

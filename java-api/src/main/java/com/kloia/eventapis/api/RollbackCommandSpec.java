@@ -14,7 +14,7 @@ import java.util.AbstractMap;
 import java.util.Map;
 
 /**
- * Created by zeldalozdemir on 21/02/2017.
+ * @author Zeldal Özdemir
  * To use this, You have to implement rollback method with same signature as CommandHandler.execute
  * When rollback occurs, it will trigger rollback with same parameters.
  */

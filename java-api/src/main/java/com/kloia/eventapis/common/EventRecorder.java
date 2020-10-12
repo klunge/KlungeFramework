@@ -13,7 +13,7 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 
 /**
- * Created by zeldalozdemir on 23/02/2017.
+ * @author Zeldal Özdemir
  */
 public interface EventRecorder {
 

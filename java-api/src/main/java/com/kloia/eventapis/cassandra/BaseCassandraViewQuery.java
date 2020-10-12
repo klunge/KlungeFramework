@@ -25,7 +25,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
- * Created by zeldalozdemir on 12/02/2017.
+ * @author Zeldal Özdemir
  */
 @Slf4j
 class BaseCassandraViewQuery<E extends Entity> implements ViewQuery<E> {
