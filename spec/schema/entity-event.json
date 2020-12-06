@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/kloiasoft/eventapis/blob/master/spec/schema/entity-event.json",
-  "title": "EventApis Published Event Wrapper",
-  "description": "EventApis Published Event Wrapper Schema",
+  "$id": "https://github.com/klunge/KlungeFramework/blob/master/spec/schema/entity-event.json",
+  "title": "Klunge Published Event Wrapper",
+  "description": "Klunge Published Event Wrapper Schema",
   "type": "object",
   "properties": {
     "eventKey": {
-      "$ref": "https://github.com/kloiasoft/eventapis/blob/master/spec/schema/event.key.json"
+      "$ref": "https://github.com/klunge/KlungeFramework/blob/master/spec/schema/event.key.json"
     },
     "opId": {
       "type": "string",

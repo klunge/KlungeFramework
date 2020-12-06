@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/kloiasoft/eventapis/blob/master/spec/schema/context.json",
-  "title": "EventApis Event Context",
-  "description": "EventApis Event Context Schema",
+  "$id": "https://github.com/klunge/KlungeFramework/blob/master/spec/schema/context.json",
+  "title": "Klunge Event Context",
+  "description": "Klunge Event Context Schema",
   "type": "object",
   "properties": {
     "opId": {
