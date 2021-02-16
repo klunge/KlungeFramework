@@ -4,7 +4,6 @@ import com.hazelcast.core.IMap;
 import com.hazelcast.query.PagingPredicate;
 import com.kloia.eventapis.api.emon.domain.Topic;
 import com.kloia.eventapis.api.emon.domain.Topology;
-import com.kloia.eventapis.api.emon.dto.ResponseDto;
 import com.kloia.eventapis.common.OperationContext;
 import com.kloia.eventapis.exception.EventStoreException;
 import lombok.extern.slf4j.Slf4j;
@@ -66,11 +65,9 @@ public class EventController {
     }
 
     @RequestMapping(value = "/history", method = RequestMethod.GET)
-    public ResponseEntity<ResponseDto> getTopicsHistory(@PageableDefault Pageable pageable) {
+    public ResponseEntity<Collection<Topology>> getTopicsHistory(@PageableDefault Pageable pageable) {
         try {
-            ResponseDto responseDto = new ResponseDto();
-            responseDto.setOperations(operationsHistoryMap.entrySet());
-            return new ResponseEntity<>(responseDto, HttpStatus.OK);
+            return new ResponseEntity<>(operationsHistoryMap.values(), HttpStatus.OK);
         } catch (Exception e) {
             log.error(e.getMessage(), e);
             return ResponseEntity.status(500).build();
